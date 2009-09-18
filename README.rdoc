@@ -34,6 +34,17 @@ create db seed
 
     Fixtures.create_fixtures("#{Rails.root}/test/fixtures", "operation_systems")
 
+== Install Hirb
+
+    gem install cldwalker-hirb --source http://gems.github.com/  
+
+== Hirb config
+
+    vi ~/.irbrc
+    require 'rubygems'
+    require 'hirb'
+    Hirb::View.enable
+
 ==  Links
 
 * http://railscasts.com/episodes/179-seed-data
