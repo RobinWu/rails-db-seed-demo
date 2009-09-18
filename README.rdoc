@@ -1,3 +1,7 @@
+== Requirement
+
+Rails >= 2.3.4
+
 == Console
 
     require 'hirb'
